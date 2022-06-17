@@ -36,9 +36,8 @@ Here's a walkthrough of implemented user stories:
 
 ## Notes
 
-- Most difficult part was getting used to the Objective-C.
+- Most difficult part was getting used to the Objective-C syntax.
 - Ran into problems implementing search bar. Particularlly with the predicate used in the search.
-- 
 
 ## Credits
 
