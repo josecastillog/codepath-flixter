@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Grid View Controller-->
+        <!--Movies-->
         <scene sceneID="itU-C9-neQ">
             <objects>
                 <viewController id="Ixy-5t-tjF" customClass="GridViewController" sceneMemberID="viewController">
@@ -53,7 +53,7 @@
                         <viewLayoutGuide key="safeArea" id="mJi-OP-4qV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="K2a-B4-57H"/>
+                    <navigationItem key="navigationItem" title="Movies" id="K2a-B4-57H"/>
                     <connections>
                         <outlet property="collectionView" destination="ru1-fN-5oF" id="ahs-Vh-gzU"/>
                         <outlet property="flowLayout" destination="5TA-If-YGW" id="T4B-gc-4Ta"/>
@@ -63,7 +63,7 @@
             </objects>
             <point key="canvasLocation" x="111" y="835"/>
         </scene>
-        <!--Movie View Controller-->
+        <!--Now Playing-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MovieViewController" sceneMemberID="viewController">
@@ -120,7 +120,7 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" id="A7p-yF-BQy"/>
+                    <navigationItem key="navigationItem" title="Now Playing" id="A7p-yF-BQy"/>
                     <connections>
                         <outlet property="activityIndicator" destination="6cS-Ue-Wbu" id="yVy-8T-tVs"/>
                         <outlet property="searchBar" destination="YRI-Jd-ww4" id="Mgh-Yq-cdB"/>
@@ -240,7 +240,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="kwC-EG-xNl"/>
+        <segue reference="Jzs-R5-JB3"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
