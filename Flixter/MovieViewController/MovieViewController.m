@@ -141,7 +141,7 @@
         if ([[segue identifier] isEqualToString:@"details"])
         {
             NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
-            NSDictionary *dataToPass = self.movies[indexPath.row];
+            NSDictionary *dataToPass = self.filteredData[indexPath.row];
             DetailsViewController *detailVC = [segue destinationViewController];
             detailVC.detailDict = dataToPass;
         }
